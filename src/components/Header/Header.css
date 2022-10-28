@@ -1,0 +1,72 @@
+#header{
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+ .headerImage{
+    width:80%;
+     
+    margin-top: 30px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+ }
+ .imageDiv{
+    border-radius: 40% 40% 0px 0px;
+    padding: 20px;
+    height: auto;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-image: linear-gradient(rgb(27, 92, 153),transparent );
+ }
+
+
+ .heading-child{
+    margin: 0px 0px 50px 0px;
+    padding-top:20px ;
+ }
+ .social-iconsL{
+   display: block;
+   justify-content: center;
+   background: none;
+    
+    
+ 
+    overflow: hidden;
+    left: 10%;
+     
+    position: fixed;
+    top: 30%;
+    text-align: center;
+ }
+ .social-iconsR{
+   display: block;
+   justify-content: center;
+   background: none;
+    
+    
+ 
+    overflow: hidden;
+    right: 10%;
+     
+    position: fixed;
+    top: 30%;
+    text-align: center;
+ }
+ .social-iconsL ul li  a{
+   color: white !important;
+   font-size: 35px;
+}
+ .social-iconsR ul li  a{
+  
+   color: white !important;
+   font-size: 35px;
+}
+.social-iconsL ul li  a :hover{
+   color: var(--color-bg2);
+   transition: 1s ;
+}
+.social-iconsR ul li  a :hover{
+   color: var(--color-bg2);
+   transition: 1s ;
+}

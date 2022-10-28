@@ -1,0 +1,29 @@
+.navtab{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(transparent,var(--color-bg2));
+    
+    
+    border-radius: 25px;
+    overflow: hidden;
+     left: 30%;
+     right: 30%;
+    
+    position: fixed;
+    top: 80%;
+    
+}
+
+.navtab ul li  a{
+    color: white !important;
+    font-size: 35px;
+    
+ }
+ .navtab ul li  a :hover{
+    color: var(--color-bg2);
+    transition: 1s ;
+ }
+.iconsTab{
+    margin: 15px;
+     
+}
